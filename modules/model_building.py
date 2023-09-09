@@ -4,6 +4,8 @@ from sklearn import metrics
 import pandas as pd
 import matplotlib.pyplot as plt
 
+from sklearn.metrics import confusion_matrix, accuracy_score, ConfusionMatrixDisplay
+
 
 def build_model(X_train,y_train):
     model = LogisticRegression()
