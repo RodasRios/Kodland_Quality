@@ -24,15 +24,25 @@ This project aims to leverage the quality report data provided by Kodland Compan
 
 ### Prerequisites
 
-List any prerequisites or dependencies that users need to have before using your project. Include links to download or install these dependencies if necessary.
+Python Environment:
 
-### Installation
+This project is written in Python. Make sure you have Python installed on your system. You can download Python from the official website: Python Downloads
+Required Python Libraries:
 
-Provide step-by-step instructions on how to install or set up your project. Include code snippets or commands if applicable.
+You'll need to install several Python libraries to run the analysis code effectively. You can install them using pip, a Python package manager. Run the following command to install the necessary libraries:
+
+  pip install pandas numpy matplotlib seaborn scikit-learn
+
+Jupyter Notebooks (Optional):
+
+Jupyter Notebooks are used for interactive data exploration and analysis. While not mandatory, having Jupyter Notebooks installed is highly recommended. You can install Jupyter Notebook using pip:
+
+  pip install jupyter
+
 
 ## Data Source
 
-The Daat used is the Quality report from the MENA and LATAM department for April 2023
+The Data used is the Quality report from the MENA and LATAM department for April 2023
 
 ## Analysis
 
